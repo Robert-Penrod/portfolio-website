@@ -4,8 +4,16 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: #8294c4;
 }
 
 .app {
     height: 100%;
+}
+
+.content {
+    padding-top: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }

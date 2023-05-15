@@ -2,7 +2,7 @@ import { Container, Row, Col } from "reactstrap";
 import ProjectDataList from "../data/projectData.json";
 import ProjectCard from "../components/ProjectCard";
 
-const ProjectPage = () => {
+const ProjectsPage = () => {
     return (
         <>
             <Container>
@@ -23,9 +23,11 @@ const ProjectPage = () => {
                 }).map((projectData, idx) => {
                     return <ProjectCard key={idx} projectData={projectData} />;
                 })}
+
+                <br />
             </Container>
         </>
     );
 };
 
-export default ProjectPage;
+export default ProjectsPage;
