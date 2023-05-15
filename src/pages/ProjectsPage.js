@@ -1,10 +1,21 @@
 import { Container, Row, Col } from "reactstrap";
+import { motion } from "framer-motion";
+
 import ProjectDataList from "../data/projectData.json";
 import ProjectCard from "../components/ProjectCard";
 
 const ProjectsPage = () => {
     return (
-        <>
+        <motion.div
+            className='my-auto'
+            initial={{
+                opacity: 0,
+                transformOrigin: "50% 0px",
+                transform: "scale(0.9)",
+            }}
+            animate={{ opacity: 1, transform: "scale(1)" }}
+            exit={{ opacity: 0, transform: "scale(0.9)" }}
+        >
             <Container>
                 {ProjectDataList.sort((a, b) => {
                     let order = 0;
@@ -26,7 +37,7 @@ const ProjectsPage = () => {
 
                 <br />
             </Container>
-        </>
+        </motion.div>
     );
 };
 

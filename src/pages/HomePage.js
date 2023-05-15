@@ -1,9 +1,16 @@
 import { Container, Row, Col } from "reactstrap";
+import { motion } from "framer-motion";
+
 import { Colors } from "../data/Colors";
 
 const HomePage = () => {
     return (
-        <div className='my-auto'>
+        <motion.div
+            className='my-auto'
+            initial={{ opacity: 0, transform: "scale(0.9)" }}
+            animate={{ opacity: 1, transform: "scale(1)" }}
+            exit={{ opacity: 0, transform: "scale(0.9)" }}
+        >
             <Container style={{ textAlign: "center" }}>
                 <Col>
                     <img
@@ -28,7 +35,7 @@ const HomePage = () => {
                     <hr />
                 </Col>
             </Container>
-        </div>
+        </motion.div>
     );
 };
 
