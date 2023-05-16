@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #8294c4;
 }
 
 .app {
@@ -16,4 +15,14 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
+}
+
+.blur-bg {
+    --blurAmount: 5px;
+    filter: blur(var(--blurAmount));
+    -webkit-filter: blur(var(--blurAmount));
+    -moz-filter: blur(var(--blurAmount));
+    -o-filter: blur(var(--blurAmount));
+    -ms-filter: blur(var(--blurAmount));
+    transform: scale(1.1);
 }
