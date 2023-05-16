@@ -32,6 +32,7 @@ const BG = () => {
                     width: "100%",
                     height: "100vh",
                     background: `${Colors.bg3}CC`,
+                    overflow: "hidden",
                     zIndex: "-0.5",
                 }}
             ></div>
