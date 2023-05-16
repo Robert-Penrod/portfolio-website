@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    box-sizing: border-box;
 }
 
 .app {
@@ -17,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     flex: 1;
+    overflow-anchor: none;
 }
 
 .blur-bg {
