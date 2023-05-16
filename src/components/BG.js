@@ -18,6 +18,7 @@ const BG = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 backgroundColor: "black",
+                overflow: "hidden",
                 zIndex: "-2",
             }}
         >
