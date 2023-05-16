@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <div className='app'>
                 <Header />
-                {/* <BG /> */}
+                <BG />
                 <BrowserRouter>
                     <div className='content'>
                         <AnimatedRoutes />
