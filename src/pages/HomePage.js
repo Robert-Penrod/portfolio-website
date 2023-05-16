@@ -11,7 +11,7 @@ const HomePage = () => {
             animate={{ opacity: 1, transform: "scale(1)" }}
             exit={{ opacity: 0, transform: "scale(0.9)" }}
         >
-            <Container style={{ textAlign: "center" }}>
+            <Container style={{ textAlign: "center", overflow: "hidden" }}>
                 <Col>
                     <img
                         src='/images/avatar1.jpg'
