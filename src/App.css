@@ -10,15 +10,13 @@ body {
     height: 100%;
 }
 
-.app .routes {
-    overflow-y: auto;
-}
-
 .content {
     padding-top: 60px;
     height: 100%;
     display: flex;
     justify-content: center;
+    flex: 1;
+    overflow-y: auto;
 }
 
 .blur-bg {
