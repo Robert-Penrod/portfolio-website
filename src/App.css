@@ -27,3 +27,11 @@ body {
     -ms-filter: blur(var(--blurAmount));
     transform: scale(1.1);
 }
+
+.grow {
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+.grow:hover {
+    transform: scale(1.1);
+}

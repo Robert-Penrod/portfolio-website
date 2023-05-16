@@ -15,6 +15,7 @@ const HomePage = () => {
                 <Col>
                     <img
                         src='/images/avatar1.jpg'
+                        //src='/images/ai portrait 1.png'
                         className='rounded-circle shadow mb-3 mt-3'
                         style={{
                             width: "75%",

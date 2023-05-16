@@ -17,24 +17,27 @@ const ProjectsPage = () => {
             exit={{ opacity: 0, transform: "scale(0.9)" }}
         >
             <Container>
-                {ProjectDataList.sort((a, b) => {
-                    let order = 0;
-                    if (a.favorite === "true") {
-                        order -= 2;
-                    }
-                    if (b.favorite === "true") {
-                        order += 2;
-                    }
-                    if (a.year > b.year) {
-                        order -= 1;
-                    } else {
-                        order += 1;
-                    }
-                    return order;
-                }).map((projectData, idx) => {
-                    return <ProjectCard key={idx} projectData={projectData} />;
-                })}
-
+                <Row>
+                    {ProjectDataList.sort((a, b) => {
+                        let order = 0;
+                        if (a.favorite === "true") {
+                            order -= 2;
+                        }
+                        if (b.favorite === "true") {
+                            order += 2;
+                        }
+                        if (a.year > b.year) {
+                            order -= 1;
+                        } else {
+                            order += 1;
+                        }
+                        return order;
+                    }).map((projectData, idx) => {
+                        return (
+                            <ProjectCard key={idx} projectData={projectData} />
+                        );
+                    })}
+                </Row>
                 <br />
             </Container>
         </motion.div>
