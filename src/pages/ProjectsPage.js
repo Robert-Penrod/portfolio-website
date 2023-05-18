@@ -16,7 +16,7 @@ const ProjectsPage = () => {
             animate={{ opacity: 1, transform: "scale(1)" }}
             exit={{ opacity: 0, transform: "scale(0.9)" }}
         >
-            <Container>
+            <Container className='mt-2'>
                 <Row>
                     {ProjectDataList.sort((a, b) => {
                         let order = 0;
