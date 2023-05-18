@@ -24,7 +24,10 @@ const ProjectCard = ({ projectData }) => {
                         boxShadow: "4px 4px 15px rgba(0,0,0,0.5)",
                     }}
                 >
-                    <ProjectVisual projectData={projectData} />
+                    <ProjectVisual
+                        projectData={projectData}
+                        maxSize={"160px"}
+                    />
 
                     <CardBody style={{ color: Colors.txt1 }}>
                         <CardTitle

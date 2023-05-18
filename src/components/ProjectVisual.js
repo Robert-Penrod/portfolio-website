@@ -1,10 +1,22 @@
 import { LazyVideo } from "react-lazy-media";
 
-const ProjectVisual = ({ projectData }) => {
+const ProjectVisual = ({ projectData, maxSize, isMaxHeight }) => {
     return (
         <div
             className='mx-auto pt-3 ps-3 pe-3'
-            style={{ height: "160px", width: "100%", overflow: "hidden" }}
+            style={
+                isMaxHeight
+                    ? {
+                          maxHeight: `${maxSize}`,
+                          width: "100%",
+                          overflow: "hidden",
+                      }
+                    : {
+                          height: `${maxSize}`,
+                          width: "100%",
+                          overflow: "hidden",
+                      }
+            }
         >
             <div
                 style={{
@@ -35,21 +47,6 @@ const ProjectVisual = ({ projectData }) => {
                                 overflow: "hidden",
                             }}
                         />
-                        {/* <video
-                            muted
-                            autoPlay
-                            style={{
-                                top: 0,
-                                zIndex: 1,
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                                width: "100%",
-                                height: "100%",
-                                overflow: "hidden",
-                            }}
-                            src={`/videos/${projectData.video}`}
-                        /> */}
                     </>
                 ) : projectData.image ? (
                     <img

@@ -9,6 +9,7 @@ import {
     NavLink,
 } from "reactstrap";
 import { Colors } from "../data/Colors";
+import Resume from "../documents/Resume.pdf";
 
 class Header extends React.Component {
     state = {
@@ -42,7 +43,9 @@ class Header extends React.Component {
                                 <NavLink href='/projects'>Projects</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href='/'>Resume</NavLink>
+                                <NavLink href={Resume} target='_blank'>
+                                    Resume
+                                </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href='/contact'>Contact</NavLink>
