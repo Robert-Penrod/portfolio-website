@@ -1,6 +1,7 @@
 import { Col, Card, CardTitle, CardBody, NavLink } from "reactstrap";
 import ProjectTag from "./ProjectTag";
 import { Colors } from "../data/Colors";
+import ProjectVisual from "./ProjectVisual";
 
 const ProjectCard = ({ projectData }) => {
     return (
@@ -23,31 +24,16 @@ const ProjectCard = ({ projectData }) => {
                         boxShadow: "4px 4px 15px rgba(0,0,0,0.5)",
                     }}
                 >
-                    <div className='mx-auto p-3'>
-                        {projectData.video ? (
-                            <video
-                                style={{ maxWidth: "100%" }}
-                                autoPlay
-                                playsInline
-                                muted
-                                loop
-                                src={`/videos/${projectData.video}`}
-                            />
-                        ) : projectData.image ? (
-                            <img
-                                style={{ maxWidth: "100%" }}
-                                src={`/images/${projectData.image}`}
-                                alt='project'
-                            />
-                        ) : (
-                            <div></div>
-                        )}
-                    </div>
+                    <ProjectVisual projectData={projectData} />
 
                     <CardBody style={{ color: Colors.txt1 }}>
                         <CardTitle
                             tag='h5'
                             className='fw-bold mb-4 p-2 text-center'
+                            style={{
+                                borderRadius: "5px",
+                                backgroundColor: Colors.bg2,
+                            }}
                         >
                             {projectData.name}
                         </CardTitle>
