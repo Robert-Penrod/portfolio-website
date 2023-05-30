@@ -1,5 +1,21 @@
 [
     {
+        "name": "QuoteGPT",
+        "favorite": "false",
+        "image": "QuoteGPT.png",
+        "video": "",
+        "tags": ["React JS", "OpenAI API"],
+        "links": [
+            {
+                "anchorText": "QuoteGPT",
+                "targetLink": "https://quotegpt.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "shortDescription": "A quote generator utilizing the OpenAI API",
+        "description": "This application uses the React framework and the OpenAI API to generate distinctive quotes based on different author types selected by the user. The user interface offers a dropdown menu featuring categories like \"Ancient Philosopher,\" \"Scientist,\" \"Musician,\" and a flexible \"Custom\" option."
+    },
+    {
         "name": "Precipitimer",
         "favorite": "false",
         "image": "Precipitimer.png",
