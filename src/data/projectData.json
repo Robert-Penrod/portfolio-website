@@ -1,7 +1,7 @@
 [
     {
         "name": "QuoteGPT",
-        "favorite": "false",
+        "favorite": "true",
         "image": "QuoteGPT.png",
         "video": "",
         "tags": ["React JS", "OpenAI API"],
