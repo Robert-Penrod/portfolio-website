@@ -1,52 +1,35 @@
 [
     {
-        "name": "QuoteGPT",
+        "name": "Rift Drift",
         "favorite": "true",
-        "image": "QuoteGPT.png",
-        "video": "",
-        "tags": ["React JS", "OpenAI API"],
+        "image": "",
+        "video": "Rift Drift Biome Sample.mp4",
+        "tags": ["C#", "Unity", "2D"],
         "links": [
             {
-                "anchorText": "QuoteGPT",
-                "targetLink": "https://quotegpt.netlify.app/"
+                "anchorText": "Play demo in browser.",
+                "targetLink": "https://hyperspace-wizard.itch.io/rift-drift"
             }
         ],
         "year": "2023",
-        "shortDescription": "A quote generator utilizing the OpenAI API",
-        "description": "This application uses the React framework and the OpenAI API to generate distinctive quotes based on different author types selected by the user. The user interface offers a dropdown menu featuring categories like \"Ancient Philosopher,\" \"Scientist,\" \"Musician,\" and a flexible \"Custom\" option."
+        "shortDescription": "",
+        "description": "A momentum based, rocket drifting, infinite runner game"
     },
     {
-        "name": "Precipitimer",
-        "favorite": "false",
-        "image": "Precipitimer.png",
-        "video": "",
-        "tags": ["HTML", "CSS", "JS", "VC Weather API"],
-        "links": [
-            {
-                "anchorText": "Precipitimer.com",
-                "targetLink": "https://www.precipitimer.com"
-            }
-        ],
-        "year": "2022",
-        "shortDescription": "This website counts down to the next precipitation event based on your location.",
-        "description": "Precipitimer is a weather-focused web application built with HTML, CSS, and JS. It uses the VC Weather API to provide real-time weather updates and predicts the next precipitation event based on the user's location. The primary aim of this project was to create a reliable tool for weather-sensitive activities."
-    },
-    {
-        "name": "Waterfowl Abyss",
-        "favorite": "false",
+        "name": "Spinner",
+        "favorite": "true",
         "image": "",
-        "video": "Waterfowl Abyss.mp4",
-        "tags": ["C#", "Unity", "2D", "Game Jam"],
+        "video": "Spinner.mp4",
+        "tags": ["C#", "Unity", "2D", "Mobile"],
         "links": [
             {
                 "anchorText": "Play In Browser",
-                "targetLink": "https://hyperspace-wizard.itch.io/waterfowl"
+                "targetLink": "https://hyperspace-wizard.itch.io/spinner-2024"
             }
         ],
-        "year": "2021",
-        "shortDescription": "A procedurally generated platformer.",
-
-        "description": "Waterfowl Abyss is a 2D platformer game, developed in Unity using C# for a Game Jam. The game features procedurally generated levels, ensuring a unique experience every time you play. The main objective is to navigate through the abyss while avoiding various obstacles."
+        "year": "2023",
+        "shortDescription": "Mobile arcade game.",
+        "description": "A mobile, reaction, arcade game with single touch controls. Coming to the Google Play Store soon"
     },
     {
         "name": "Spellbound",
@@ -60,39 +43,17 @@
                 "targetLink": "https://hyperspace-wizard.itch.io/spellbound"
             }
         ],
-        "year": "2021",
+        "year": "2022",
         "shortDescription": "Skill based platformer where you play as a wizards spell book.",
         "description": "Spellbound is a unique, skill-based platformer where the player assumes the role of a wizard's spellbook. Created in Unity using C#, the game was developed for a Game Jam. The core mechanic is using the different spells available in the book to overcome various challenges and obstacles."
     },
-    {
-        "name": "Rimor",
-        "favorite": "false",
-        "image": "",
-        "video": "Rimor.mp4",
-        "tags": ["C#", "Unity", "2D", "Game Jam"],
-        "links": [
-            {
-                "anchorText": "Play In Browser",
-                "targetLink": "https://hyperspace-wizard.itch.io/rimor"
-            }
-        ],
-        "year": "2021",
-        "shortDescription": "Momentum based platformer with a grappling hook.",
-        "description": "Rimor is a momentum-based 2D platformer game built with Unity and C#. It's designed around a unique grappling hook mechanic, requiring players to maintain momentum and traverse through the levels. Rimor was created for a Game Jam, showcasing the potential of physics in platformer games."
-    },
+
     {
         "name": "Snowball Fight VR",
         "favorite": "true",
         "image": "",
         "video": "Snowball Fight VR.mp4",
-        "tags": [
-            "Unity",
-            "VR",
-            "C#",
-            "XR Interaction Toolkit",
-            "3D",
-            "Game Jam"
-        ],
+        "tags": ["Unity", "VR", "C#", "3D", "Game Jam"],
         "links": [
             {
                 "anchorText": "Itch.io Page",
@@ -103,10 +64,9 @@
         "shortDescription": "Snowball fighting VR Game",
         "description": "Snowball Fight VR is a virtual reality game developed in Unity using C# and the XR Interaction Toolkit. The game was developed as part of the Holiday VR Jam 2020. It involves the player engaging in a snowball fight against snowmen and building forts for protection. It offers an immersive winter holiday experience."
     },
-
     {
         "name": "Phaser",
-        "favorite": "true",
+        "favorite": "false",
         "image": "",
         "video": "Phaser.mp4",
         "tags": ["C#", "Unity", "3D", "Game Jam"],
@@ -122,7 +82,7 @@
     },
     {
         "name": "Smart Dots",
-        "favorite": "true",
+        "favorite": "false",
         "image": "",
         "video": "Smart Dots.mp4",
         "tags": ["Java", "Processing", "Evolutionary Computation"],

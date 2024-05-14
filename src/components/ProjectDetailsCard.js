@@ -5,6 +5,8 @@ import {
     CardText,
     Button,
     NavLink,
+    Col,
+    Row,
 } from "reactstrap";
 import ProjectVisual from "./ProjectVisual";
 import { Colors } from "../data/Colors";
@@ -76,18 +78,21 @@ const ProjectsDetailsCard = ({ project }) => {
                                 <hr />
                                 {project.links.map((link, idx) => {
                                     return (
-                                        <a
-                                            key={idx}
-                                            href={link.targetLink}
-                                            target='_blank'
-                                            rel='noreferrer'
-                                            style={{
-                                                color: `${Colors.link1}`,
-                                                textDecoration: "underline",
-                                            }}
-                                        >
-                                            {link.anchorText}
-                                        </a>
+                                        <Row>
+                                            <a
+                                                key={idx}
+                                                href={link.targetLink}
+                                                target='_blank'
+                                                rel='noreferrer'
+                                                style={{
+                                                    color: `${Colors.link1}`,
+                                                    textDecoration: "underline",
+                                                }}
+                                            >
+                                                {link.anchorText}
+                                            </a>
+                                            <br />
+                                        </Row>
                                     );
                                 })}
                             </>

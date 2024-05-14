@@ -8,12 +8,12 @@ const ProjectVisual = ({ projectData, maxSize, isMaxHeight }) => {
                 isMaxHeight
                     ? {
                           maxHeight: `${maxSize}`,
-                          width: "100%",
+                          display: "flex",
                           overflow: "hidden",
                       }
                     : {
                           height: `${maxSize}`,
-                          width: "100%",
+                          display: "flex",
                           overflow: "hidden",
                       }
             }
@@ -49,6 +49,7 @@ const ProjectVisual = ({ projectData, maxSize, isMaxHeight }) => {
                     preload='auto'
                     src={`/videos/${projectData.video}`}
                     style={{ width: "100%" }}
+                    objectFit='contain'
                 />
             ) : projectData.image ? (
                 <img
