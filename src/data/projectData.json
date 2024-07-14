@@ -65,22 +65,6 @@
         "description": "Snowball Fight VR is a virtual reality game developed in Unity using C# and the XR Interaction Toolkit. The game was developed as part of the Holiday VR Jam 2020. It involves the player engaging in a snowball fight against snowmen and building forts for protection. It offers an immersive winter holiday experience."
     },
     {
-        "name": "Phaser",
-        "favorite": "false",
-        "image": "",
-        "video": "Phaser.mp4",
-        "tags": ["C#", "Unity", "3D", "Game Jam"],
-        "links": [
-            {
-                "anchorText": "Itch.io Page",
-                "targetLink": "https://hyperspace-wizard.itch.io/phaser"
-            }
-        ],
-        "year": "2019",
-        "shortDescription": "Dimension shifting parkour game.",
-        "description": "Phaser is a 3D parkour game with a twist. Built in Unity using C#, the game was developed for a Game Jam. It introduces a unique dimension-shifting mechanic where players must adjust their reality to navigate through the level, providing an innovative take on the parkour genre."
-    },
-    {
         "name": "Smart Dots",
         "favorite": "false",
         "image": "",
