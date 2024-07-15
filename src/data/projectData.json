@@ -2,7 +2,7 @@
     {
         "name": "Rift Drift",
         "favorite": "true",
-        "image": "",
+        "image": "Rift Drift Thumbnail.png",
         "video": "Rift Drift Biome Sample.mp4",
         "tags": ["C#", "Unity", "2D"],
         "links": [
@@ -18,7 +18,7 @@
     {
         "name": "Spinner",
         "favorite": "true",
-        "image": "",
+        "image": "Spinner Thumbnail.png",
         "video": "Spinner.mp4",
         "tags": ["C#", "Unity", "2D", "Mobile"],
         "links": [
@@ -29,12 +29,12 @@
         ],
         "year": "2023",
         "shortDescription": "Mobile arcade game.",
-        "description": "A mobile, reaction, arcade game with single touch controls. Coming to the Google Play Store soon"
+        "description": "A mobile reaction arcade game with single touch controls. Coming to the Google Play Store soon"
     },
     {
         "name": "Spellbound",
         "favorite": "false",
-        "image": "",
+        "image": "Spellbound Thumbnail.png",
         "video": "Spellbound.mp4",
         "tags": ["C#", "Unity", "2D", "Game Jam"],
         "links": [
@@ -51,7 +51,7 @@
     {
         "name": "Snowball Fight VR",
         "favorite": "true",
-        "image": "",
+        "image": "Snowball Fight VR Thumbnail.png",
         "video": "Snowball Fight VR.mp4",
         "tags": ["Unity", "VR", "C#", "3D", "Game Jam"],
         "links": [

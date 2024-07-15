@@ -41,6 +41,7 @@ const ProjectVisual = ({ projectData, maxSize, isMaxHeight }) => {
                 //     }}
                 // />
                 <video
+                    poster={`/images/${projectData.image}`}
                     className='mx-auto'
                     autoPlay
                     playsInline
