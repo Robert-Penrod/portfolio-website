@@ -4,7 +4,7 @@
         "favorite": "true",
         "image": "Rift Drift Thumbnail.png",
         "video": "Rift Drift Biome Sample.mp4",
-        "tags": ["C#", "Unity", "2D"],
+        "tags": ["C#", "Unity", "2.5D"],
         "links": [
             {
                 "anchorText": "Play demo in browser.",
@@ -25,11 +25,15 @@
             {
                 "anchorText": "Play In Browser",
                 "targetLink": "https://hyperspace-wizard.itch.io/spinner-2024"
+            },
+            {
+                "anchorText": "Google Play Store",
+                "targetLink": "https://play.google.com/store/apps/details?id=com.HyperQuestGames.Spinner"
             }
         ],
         "year": "2023",
         "shortDescription": "Mobile arcade game.",
-        "description": "A mobile reaction arcade game with single touch controls. Coming to the Google Play Store soon"
+        "description": "A mobile reaction arcade game with single touch controls."
     },
     {
         "name": "Spellbound",
