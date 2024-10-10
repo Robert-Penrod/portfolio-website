@@ -45,7 +45,7 @@ const ProjectsDetailsCard = ({ project }) => {
                 <ProjectVisual
                     projectData={project}
                     isHeightLimited={true}
-                    isMaxHeight={true}
+                    isMaxHeight={false}
                     maxSize={"350px"}
                 />
                 <CardBody style={{ color: Colors.txt1 }}>

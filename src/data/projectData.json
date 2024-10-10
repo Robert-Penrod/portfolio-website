@@ -36,6 +36,38 @@
         "description": "A mobile reaction arcade game with single touch controls."
     },
     {
+        "name": "StoryEngine",
+        "favorite": "false",
+        "image": "StoryEngine.png",
+        "video": "",
+        "tags": ["React", "OpenAI API"],
+        "links": [
+            {
+                "anchorText": "Play In Browser",
+                "targetLink": "https://storyengine.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "shortDescription": "AI powered choose your own adventure game.",
+        "description": "An AI-powered \"choose your own adventure\" game built in React using the OpenAI API. Players make decisions that dynamically shape the storyline, allowing for a procedural player driven narrative."
+    },
+    {
+        "name": "QuoteGPT",
+        "favorite": "false",
+        "image": "QuoteGPT.png",
+        "video": "",
+        "tags": ["React", "OpenAI API"],
+        "links": [
+            {
+                "anchorText": "View Online",
+                "targetLink": "https://quotegpt.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "shortDescription": "AI powered quote generator.",
+        "description": "A quote generator where users can select an author and generate inspirational or thought-provoking quotes. Built using React and powered by the OpenAI API."
+    },
+    {
         "name": "Spellbound",
         "favorite": "false",
         "image": "Spellbound Thumbnail.png",
@@ -54,7 +86,7 @@
 
     {
         "name": "Snowball Fight VR",
-        "favorite": "true",
+        "favorite": "false",
         "image": "Snowball Fight VR Thumbnail.png",
         "video": "Snowball Fight VR.mp4",
         "tags": ["Unity", "VR", "C#", "3D", "Game Jam"],
