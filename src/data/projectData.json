@@ -1,14 +1,47 @@
 [
     {
+        "name": "Game Hub",
+        "favorite": "false",
+        "image": "Game Hub Thumbnail.png",
+        "video": "",
+        "tags": ["React", "Chakra UI", "RAWG API"],
+        "links": [
+            {
+                "anchorText": "View Webpage",
+                "targetLink": "https://game-hub-gray-nine.vercel.app/"
+            }
+        ],
+        "year": "2024",
+        "shortDescription": "",
+        "description": "Easily search, filter by genre, and explore ratings and details for a wide range of video games across various platforms."
+    },
+    {
+        "name": "Pocket Viewer",
+        "favorite": "false",
+        "image": "PokeViewer_Thumbnail.png",
+        "video": "",
+        "tags": ["React", "React Router", "Mantine UI", "PokéAPI"],
+        "links": [
+            {
+                "anchorText": "View Webpage",
+                "targetLink": "https://pocket-viewer.netlify.app/"
+            }
+        ],
+        "year": "2024",
+        "shortDescription": "",
+        "description": "An interactive tool that allows users to search, filter, and view detailed information about Pokémon using a visually engaging and user-friendly interface."
+    },
+
+    {
         "name": "Rift Drift",
-        "favorite": "true",
+        "favorite": "false",
         "image": "Rift Drift Thumbnail.png",
         "video": "Rift Drift Biome Sample.mp4",
         "tags": ["C#", "Unity", "2.5D"],
         "links": [
             {
-                "anchorText": "Play demo in browser.",
-                "targetLink": "https://hyperquest-games.itch.io/rift-drift-prototype"
+                "anchorText": "See More",
+                "targetLink": "https://hyperquestgames.com"
             }
         ],
         "year": "2023",
@@ -17,7 +50,7 @@
     },
     {
         "name": "Spinner",
-        "favorite": "true",
+        "favorite": "false",
         "image": "Spinner Thumbnail.png",
         "video": "Spinner.mp4",
         "tags": ["C#", "Unity", "2D", "Mobile"],
@@ -29,6 +62,10 @@
             {
                 "anchorText": "Google Play Store",
                 "targetLink": "https://play.google.com/store/apps/details?id=com.HyperQuestGames.Spinner"
+            },
+            {
+                "anchorText": "See More",
+                "targetLink": "https://hyperquestgames.com/"
             }
         ],
         "year": "2023",
