@@ -1,7 +1,7 @@
 [
     {
         "name": "Dungeons & Generators",
-        "favorite": "false",
+        "favorite": "true",
         "image": "Dungeons and Generators_Thumbnail.png",
         "video": "",
         "tags": [
@@ -135,7 +135,7 @@
 
     {
         "name": "Snowball Fight VR",
-        "favorite": "false",
+        "favorite": "true",
         "image": "Snowball Fight VR Thumbnail.png",
         "video": "Snowball Fight VR.mp4",
         "tags": ["Unity", "VR", "C#", "3D", "Game Jam"],
