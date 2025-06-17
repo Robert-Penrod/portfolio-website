@@ -1,19 +1,31 @@
 [
     {
-        "name": "Game Hub",
+        "name": "Dungeons & Generators",
         "favorite": "false",
-        "image": "Game Hub Thumbnail.png",
+        "image": "Dungeons and Generators_Thumbnail.png",
         "video": "",
-        "tags": ["React", "Chakra UI", "RAWG API"],
+        "tags": [
+            "Typescript",
+            "React",
+            "Mantine UI",
+            "Node.js",
+            "Express",
+            "OpenAI API",
+            "Firebase (Functions)",
+            "Cloudflare Workers",
+            "Redis",
+            "Zod",
+            "REST API"
+        ],
         "links": [
             {
                 "anchorText": "View Webpage",
-                "targetLink": "https://game-hub-gray-nine.vercel.app/"
+                "targetLink": "https://dungeons-and-generators.netlify.app/"
             }
         ],
-        "year": "2024",
+        "year": "2025",
         "shortDescription": "",
-        "description": "Easily search, filter by genre, and explore ratings and details for a wide range of video games across various platforms."
+        "description": "An advanced fullstack project integrating AI-powered procedural content generation for TTRPGs using the OpenAI API.\n\nFeatures fully custom REST API endpoints built with Firebase Functions (serverless), Express, and Zod for strict schema validation and type-safe request handling.\n\nThe project utilizes Cloudflare Workers for global edge proxying, domain routing, and additional security layers. Rate limiting is handled via Upstash Redis using custom-built distributed token bucket algorithms, ensuring scalability under load. Shared TypeScript types are managed across backend and frontend via a monorepo with custom shared packages to maintain type safety throughout the application.\n\nThe frontend is built with React and Mantine UI, providing a highly responsive, clean user experience while allowing users to quickly generate, browse, and preview multiple AI-generated magic items simultaneously. Project designed for eventual extensibility into full character, monster, encounter, and location generation.\n\nKey technologies: Typescript, React, Mantine UI, Node.js, Express, Firebase Functions, Cloudflare Workers, Upstash Redis, OpenAI API, Zod, RESTful API Design, SaaS-style architecture."
     },
     {
         "name": "Pocket Viewer",

@@ -1,5 +1,21 @@
 [
     {
+        "name": "Game Hub",
+        "favorite": "false",
+        "image": "Game Hub Thumbnail.png",
+        "video": "",
+        "tags": ["React", "Chakra UI", "RAWG API"],
+        "links": [
+            {
+                "anchorText": "View Webpage",
+                "targetLink": "https://game-hub-gray-nine.vercel.app/"
+            }
+        ],
+        "year": "2024",
+        "shortDescription": "",
+        "description": "Easily search, filter by genre, and explore ratings and details for a wide range of video games across various platforms."
+    },
+    {
         "name": "Rift Drift",
         "favorite": "true",
         "image": "",
