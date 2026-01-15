@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "reactstrap";
 import { motion } from "framer-motion";
+import { Col, Container } from "reactstrap";
 
 import { Colors } from "../data/Colors";
 
@@ -29,9 +29,9 @@ const HomePage = () => {
                     <hr />
                     <Col className='fs-1 fw-bold'>Hi, I'm Robert.</Col>
                     <Col className='fs-5 fw-normal fst-italic'>
-                        I aim to grow my knowledge, experience, and capabilities
-                        to develop and create things that add value to the lives
-                        of others.
+                        Software engineer with a computer science background
+                        building interactive software, real-time systems, and
+                        web applications.
                     </Col>
                     <hr />
                 </Col>

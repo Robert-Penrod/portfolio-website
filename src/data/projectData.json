@@ -11,16 +11,13 @@
             "Node.js",
             "Express",
             "OpenAI API",
-            "Firebase (Functions)",
-            "Cloudflare Workers",
-            "Redis",
-            "Zod",
+            "Firebase",
             "REST API"
         ],
         "links": [
             {
                 "anchorText": "View Webpage",
-                "targetLink": "https://dungeons-and-generators.netlify.app/"
+                "targetLink": "dng.quest"
             }
         ],
         "year": "2025",
@@ -84,22 +81,7 @@
         "shortDescription": "Mobile arcade game.",
         "description": "A mobile reaction arcade game with single touch controls."
     },
-    {
-        "name": "StoryEngine",
-        "favorite": "false",
-        "image": "StoryEngine.png",
-        "video": "",
-        "tags": ["React", "OpenAI API"],
-        "links": [
-            {
-                "anchorText": "Play In Browser",
-                "targetLink": "https://storyengine.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "shortDescription": "AI powered choose your own adventure game.",
-        "description": "An AI-powered \"choose your own adventure\" game built in React using the OpenAI API. Players make decisions that dynamically shape the storyline, allowing for a procedural player driven narrative."
-    },
+
     {
         "name": "QuoteGPT",
         "favorite": "false",
@@ -148,23 +130,6 @@
         "year": "2020",
         "shortDescription": "Snowball fighting VR Game",
         "description": "Snowball Fight VR is a virtual reality game developed in Unity using C# and the XR Interaction Toolkit. The game was developed as part of the Holiday VR Jam 2020. It involves the player engaging in a snowball fight against snowmen and building forts for protection. It offers an immersive winter holiday experience."
-    },
-
-    {
-        "name": "Phaser",
-        "favorite": "false",
-        "image": "",
-        "video": "Phaser.mp4",
-        "tags": ["C#", "Unity", "3D", "Game Jam"],
-        "links": [
-            {
-                "anchorText": "Itch.io Page",
-                "targetLink": "https://hyperspace-wizard.itch.io/phaser"
-            }
-        ],
-        "year": "2019",
-        "shortDescription": "Dimension shifting parkour game.",
-        "description": "Phaser is a 3D parkour game with a twist. Built in Unity using C#, the game was developed for a Game Jam. It introduces a unique dimension-shifting mechanic where players must adjust their reality to navigate through the level, providing an innovative take on the parkour genre."
     },
     {
         "name": "Smart Dots",
