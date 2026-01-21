@@ -1,7 +1,7 @@
 [
     {
         "name": "Dungeons & Generators",
-        "favorite": "true",
+        "favorite": "false",
         "image": "Dungeons and Generators_Thumbnail.png",
         "video": "",
         "tags": [
@@ -26,7 +26,7 @@
     },
     {
         "name": "Pocket Viewer",
-        "favorite": "true",
+        "favorite": "false",
         "image": "PokeViewer_Thumbnail.png",
         "video": "",
         "tags": ["React", "React Router", "Mantine UI", "PokéAPI"],
@@ -43,7 +43,7 @@
 
     {
         "name": "Rift Drift",
-        "favorite": "true",
+        "favorite": "false",
         "image": "Rift Drift Thumbnail.png",
         "video": "Rift Drift Biome Sample.mp4",
         "tags": ["C#", "Unity", "2.5D"],

@@ -1,5 +1,4 @@
 import { Colors } from "../data/Colors";
-import bgImage from "../images/bg2.jpg";
 
 const BG = () => {
     return (
@@ -13,7 +12,7 @@ const BG = () => {
                 left: 0,
                 width: "100%",
                 height: "100vh",
-                backgroundImage: `url(${bgImage})`,
+                // backgroundImage: `url(${bgImage})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
